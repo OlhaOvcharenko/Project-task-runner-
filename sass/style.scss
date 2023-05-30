@@ -22,3 +22,13 @@ body {
 section {
     margin: 96px 0 96px 0;
 }
+
+/*header*/
+
+header {
+    background-image: url("../images/Background.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 700px;
+}
