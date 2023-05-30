@@ -1,3 +1,27 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+head {
+  display: none;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+body {
+  margin: 0;
+  color: black;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 50px 0 50px;
+}
+
+section {
+  margin: 96px 0 96px 0;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBRUE7RUFDSSxzQkFBQTtBQ0FKOztBREVBO0VBQ0ksYUFBQTtBQ0NKOztBRENBO0VBQ0ksU0FBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7QUNFSjs7QURDQTtFQUNJLGlCQUFBO0VBQ0EsY0FBQTtFQUNBLHNCQUFBO0FDRUo7O0FEQ0E7RUFDSSxxQkFBQTtBQ0VKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
