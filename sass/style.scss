@@ -290,6 +290,13 @@ h4 {
             }
        }
 
+    .title {
+    padding: 100px 0 60px 20px;
+    }
+
+    .portfolio-items .row {
+        padding-left: 60px;
+    }
 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -335,6 +342,10 @@ h4 {
                 font-weight: 300;
             }
        }
+
+    .portfolio-items .row {
+        padding-left: 60px;
+    }
 }
 
 
