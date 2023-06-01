@@ -43,13 +43,13 @@ header {
     text-align:center;
 }
 
-.navigation .logo {
+a .brand {
     color: $color-three;
     font-family: $font-logo;
 }
 
 a {
-    color: beige;
+    color: $color-one;
     text-decoration: none;
-    font-family: $font-text;
+    font-family: $font-header;
 }
