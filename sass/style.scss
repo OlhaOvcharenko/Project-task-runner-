@@ -166,14 +166,33 @@ h4 {
 
 /*Portfolio*/
 
-.portfolio .card  {
-    text-align: center;
+.portfolio {
+    background: whitesmoke;
+}
+.portfolio-info {
+    width: 290px;
+    background: white;
+    margin-right: 25px;
+    padding-right: 55px;
     font-family: $font-text;
     color: grey;
-    line-height: 1.5;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     font-style: bold;
+    text-align: center;
 }
+
+.card h4 {
+    padding-top: 0;
+    font-family: $font-header;
+}
+.card h5 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
    
 
