@@ -149,8 +149,11 @@ h4 {
     padding-top: 20px;
 }
 
+.service-item a{
+    font-size: 0;
+}
+
 .service-item i {
-    background-color: #FFFFFF;
     font-size: 40px;
     color: gold;
     height: 80px;
@@ -160,3 +163,17 @@ h4 {
     text-align: center;
     line-height: 65px;
 }
+
+/*Portfolio*/
+
+.portfolio .card  {
+    text-align: center;
+    font-family: $font-text;
+    color: grey;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: bold;
+}
+   
+
