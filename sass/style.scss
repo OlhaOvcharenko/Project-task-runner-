@@ -17,6 +17,7 @@ body {
     color:black;
     font-size: 16px;
     line-height: 1.7;
+    font-style: $font-text;
 }
 
 .container {
@@ -106,4 +107,56 @@ h1 {
     color: $color-one;
     font-family: $font-header;
     font-weight: 400;
+}
+
+/*Services*/
+
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 100px 0 60px 0;
+    color: grey;
+    line-height: 1;
+}
+
+.section-title {
+    color: black;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.service-items {
+    padding: 0 0 100px 30px;
+}
+
+.service-item {
+    text-align: center;
+    font-family: $font-text;
+    color: grey;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: bold;
+
+}
+
+h4 {
+    color: $color-two;
+    font-family: $font-header;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.service-item i {
+    background-color: #FFFFFF;
+    font-size: 40px;
+    color: gold;
+    height: 80px;
+    border-radius:50%;
+    width: 80px;
+    border: 4px solid gold;
+    text-align: center;
+    line-height: 65px;
 }
