@@ -1,3 +1,9 @@
+$color-one: white;
+$color-two: black;
+$color-three: orange;
+$font-text: 'Roboto Slab', serif;
+$font-header: 'Roboto', sans-serif;
+$font-logo: 'Cookie', cursive;
 /* Global */
 
 *, *::before, *::after {
@@ -37,7 +43,13 @@ header {
     text-align:center;
 }
 
+.navigation .logo {
+    color: $color-three;
+    font-family: $font-logo;
+}
+
 a {
     color: beige;
     text-decoration: none;
+    font-family: $font-text;
 }
