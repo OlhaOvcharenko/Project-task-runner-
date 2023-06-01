@@ -3,7 +3,7 @@ $color-two: black;
 $color-three: orange;
 $font-text: 'Roboto Slab', serif;
 $font-header: 'Roboto', sans-serif;
-$font-logo: 'Cookie', cursive;
+$font-logo: 'Playfair', serif;
 /* Global */
 
 *, *::before, *::after {
@@ -23,7 +23,7 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 50px 0 50px;
 }
 
 section {
@@ -169,6 +169,11 @@ h4 {
 .portfolio {
     background: whitesmoke;
 }
+
+.portfolio .container {
+    padding-bottom: 95px;
+}
+
 .portfolio-info {
     width: 290px;
     background: white;
@@ -190,7 +195,39 @@ h4 {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-style: $font-logo;
 }
+
+/*Footer*/
+
+.footer ul {
+    display: flex;
+    margin: 48px 0;
+    justify-content: center;
+}
+.footer-icons {
+    padding-right: 30%;
+}
+
+.footer li i {
+    text-align: center;
+    font-size: 30px;
+    background: $color-two;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $color-one;
+    border-radius: 50%;
+}
+.footer li {
+    font-size: 0;
+    padding: 0 15px 0 0;
+ }
+
+ .footer p {
+    padding-top: 50px;
+ }
+
 
 
 
