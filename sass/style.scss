@@ -33,6 +33,7 @@ section {
 
 header {
     background-image: url("../images/Background.png");
+    background-color: rgba($color: #000000, $alpha: 0.7);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -42,11 +43,19 @@ header {
 .navigation {
     text-align:center;
     font-family: $font-header;
+    font-weight: 300;
 }
 
-a {
+.navigation a {
     text-decoration: none;
     color: white;
+    font-weight: 300;
+}
+
+.navigation .logo a {
+    color: gold;
+    font-family: $font-logo;
+    font-size: 24px;
 }
 
 .home {
@@ -54,5 +63,47 @@ a {
     max-width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    padding-top: 50px 0 50px 50px;
+}
+
+.home-page{
+    line-height: 1.2;
+    padding-top: 105px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: $color-one;
+    font-size: 42px;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: $font-header;
+    color: $color-one;
+    font-size: 72px;
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    min-width: 190px;
+    margin: 35px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-header;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: none;
+    background-position: 100% 0;
+    background-size: 300%;
+    background-color: $color-three;
+    color: $color-one;
+    font-family: $font-header;
+    font-weight: 400;
 }
