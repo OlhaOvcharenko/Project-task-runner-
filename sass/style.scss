@@ -50,7 +50,15 @@ header {
 .navigation a {
     text-decoration: none;
     color: white;
-    font-weight: 300;
+}
+
+.menu-items ul i {
+    display: none;
+}
+
+.menu-items ul {
+    display: flex;
+    list-style-type: none;
 }
 
 .navigation .logo a {
@@ -228,6 +236,98 @@ h4 {
     padding-top: 50px;
  }
 
+ /* Media */
+
+@media (max-width: 767px) {
+    .home-page{
+        padding-top: 55px;
+        padding-right: 25px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 24px;
+        font-weight: 200;
+    }
+    
+    h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    .menu-items ul li i {
+        display: block;
+        position: relative;
+        padding-left: 100px;
+        background: none;
+        font-size: 25px;
+    }
+
+    .menu-items li ul {
+        display: none;
+        position: absolute;
+        padding-top: 12px;
+        transform: translateX(-50%);
+    }
+    
+    .menu-items li:hover ul {
+        display: block;
+        padding-left: 0;
+        margin-left: 100px;
+        background-color: rgba($color: #9b8585, $alpha: 0.7);
+            a {
+                font-size: 16px;
+                font-family: $font-header;
+                font-weight: 300;
+            }
+       }
+
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home-page{
+        padding-top: 75px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 32px;
+        font-weight: 200;
+    }
+    
+    h1 {
+        font-size: 52px;
+        margin: 0;
+    }
+
+    .menu-items ul li i {
+        display: block;
+        position: relative;
+        padding-left: 100px;
+        background: none;
+        font-size: 25px;
+    }
+
+    .menu-items li ul {
+        display: none;
+        position: absolute;
+        padding-top: 12px;
+        transform: translateX(-50%);
+    }
+    
+    .menu-items li:hover ul {
+        display: block;
+        padding-left: 0;
+        margin-left: 100px;
+        background-color: rgba($color: #9b8585, $alpha: 0.7);
+            a {
+                font-size: 16px;
+                font-family: $font-header;
+                font-weight: 300;
+            }
+       }
+}
 
 
 
