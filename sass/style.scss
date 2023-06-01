@@ -41,15 +41,10 @@ header {
 
 .navigation {
     text-align:center;
-}
-
-a .brand {
-    color: $color-three;
-    font-family: $font-logo;
+    font-family: $font-header;
+    color: white;
 }
 
 a {
-    color: $color-one;
     text-decoration: none;
-    font-family: $font-header;
 }
