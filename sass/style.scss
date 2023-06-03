@@ -269,20 +269,20 @@ h4 {
 
  /* Media */
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
 
     .home-page{
         text-align: center;
-        padding-top: 25px;
+        padding-top: 20px;
     }
     
     h2 {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 200;
     }
     
     h1 {
-        font-size: 32px;
+        font-size: 28px;
         margin: 0;
     }
 
@@ -312,7 +312,6 @@ h4 {
         margin-right: 0;
         background: none;
         font-size: 25px;
-        z-index: 3;
     }
 
     .menu-items li ul {
@@ -340,7 +339,7 @@ h4 {
     }
 
     .section-title h1{
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
     }
 
