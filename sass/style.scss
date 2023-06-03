@@ -34,7 +34,6 @@ section {
 
 header {
     background-image: url("../images/Background.png");
-    background-color: rgba($color: #000000, $alpha: 0.7);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -130,9 +129,9 @@ h1 {
 .title {
     text-align: center;
     margin: 0;
-    padding: 100px 0 60px 0;
     color: grey;
     line-height: 1;
+    padding: 100px 50px 0 50px;
 }
 
 .section-title {
@@ -141,16 +140,12 @@ h1 {
     font-weight: 900;
 }
 
-.service-items {
-    padding: 0 0 100px 30px;
-}
-
 .service-item {
     text-align: center;
     font-family: $font-text;
     color: grey;
     line-height: 1.5;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     font-style: bold;
 
