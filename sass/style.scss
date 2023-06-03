@@ -83,7 +83,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 120px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
 }
 
 .home-page{
@@ -265,8 +265,7 @@ h4 {
 
 @media (max-width: 767px) {
     .home-page{
-        padding-top: 55px;
-        padding-right: 25px;
+        padding-top: 25px;
         text-align: center;
     }
     
