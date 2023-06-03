@@ -302,7 +302,7 @@ h4 {
     .menu-items ul li i {
         display: block;
         position: relative;
-        padding: 0 0 0 80%;
+        padding: 0 0 0 50%;
         background: none;
         font-size: 25px;
     }
@@ -311,7 +311,7 @@ h4 {
         display: none;
         position: absolute;
         padding: 0;
-        margin: 0 0 0 15%;
+        margin: 0 0 0 5%;
     }
     
     .menu-items li:hover ul {
@@ -323,10 +323,37 @@ h4 {
                 font-weight: 300;
             }
        }
-       
+
     .section-title {
-        font-size: 32px;
+        font-size: 28px;
+        padding: 50px 25px 25px 25px;
     }
+
+    .section-title p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .home {
+        padding: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 200;
+    }
+    
+    h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    .footer-icons {
+        margin: 0;
+    }
+
 }
 
 
