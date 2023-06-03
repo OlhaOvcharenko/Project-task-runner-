@@ -62,6 +62,8 @@ header {
 
 .menu-items ul li ul a {
     font-size: 16px;
+    font-style: $font-header;
+    font-weight: 400;
 }
 
 .menu-items ul {
@@ -72,22 +74,21 @@ header {
 .navigation .logo a {
     color: gold;
     font-family: $font-logo;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .home {
     margin: auto;
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px 0 50px 50px;
+    padding: 120px 50px 50px 50px;
 }
 
 .home-page{
     line-height: 1.2;
-    padding-top: 105px;
-    padding-right: 50px;
     text-align: center;
 }
 
@@ -106,12 +107,13 @@ h1 {
 
 .button {
     display: inline-block;
-    min-width: 190px;
-    margin: 35px auto 0 auto;
-    padding: 16px;
+    min-width: 260px;
+    margin: 45px auto 0 auto;
+    padding: 22px 0 22px 0;
     border-radius: 5px;
     font-family: $font-header;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -119,10 +121,8 @@ h1 {
     border-style: none;
     background-position: 100% 0;
     background-size: 300%;
-    background-color: $color-three;
+    background-color:gold;
     color: $color-one;
-    font-family: $font-header;
-    font-weight: 400;
 }
 
 /*Services*/
