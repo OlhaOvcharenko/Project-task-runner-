@@ -306,25 +306,29 @@ h4 {
         color: $color-one;
     }
 
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 25px 25px 25px;
+    }
+
     .menu-items ul li i {
         display: block;
         position: relative;
-        margin-right: 0;
         background: none;
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .menu-items li ul {
         display: none;
-        position: absolute;
-        padding: 0;
-        margin: 0 0 0 30%;
     }
     
     .menu-items li:hover ul {
-        display: block;
-        margin: 0 0 0 30%;
-        background-color: rgba($color: #9b8585, $alpha: 0.7);
+        display: flex;
+        flex-direction: column;
+        background-color: rgba($color: #eae4e4, $alpha: 0.7);
             a {
                 font-size: 14px;
                 font-family: $font-header;
